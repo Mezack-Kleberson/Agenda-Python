@@ -1,0 +1,21 @@
+{% extends "global/base.html" %}
+
+{% block content %}
+  <div class="single-contact">
+    <h1 class="single-contact-name">
+      {{ contact.first_name }} {{ contact.last_name }}
+    </h1>
+    <p><strong>ID:</strong> {{ contact.id }}</p>
+    <p><strong>Email:</strong> {{ contact.email }}</p>
+    <p><strong>Phone:</strong> {{ contact.phone }}</p>
+    <p><strong>Created Date</strong> {{ contact.created_date }}</p>
+    <p> <strong>Description</strong> {{ contact.description }}</p>
+    <p><strong>Category</strong> {{ contact.category.name}}</p>
+    <div class="contact-links">
+      <a class="btn btn-link" href="{% url "contact:update" contact.id%}">Update</a>
+      <a class="btn btn-link btn-delete" href="{% url "contact:update" contact.id%}">Delete</a>
+    </div>
+  </div>
+{% endblock content %}
+
+
