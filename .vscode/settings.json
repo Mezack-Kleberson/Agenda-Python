@@ -1,0 +1,65 @@
+{
+    "workbench.colorTheme": "Soudev Mega Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.productIconTheme": "material-product-icons",
+    "material-icon-theme.folders.theme": "specific",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontSize": 14,
+    "editor.lineHeight": 1.8,
+    "editor.renderLineHighlight": "none",
+    "editor.fontLigatures": true,
+    "workbench.editor.labelFormat": "default",
+    "explorer.compactFolders": false,
+    "editor.semanticHighlighting.enabled": true,
+    "workbench.editorAssociations": {
+        "*.html": "default"
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.formatOnType": true
+    },
+    "files.autoSave": "afterDelay",
+    "terminal.integrated.fontFamily": "JetBrains Mono",
+    "terminal.integrated.fontSize": 14,
+    "files.associations": {
+        "*.js": "javascript",
+        "*.jsx": "javascriptreact",
+        "*.xml": "html",
+        "*.svg": "html",
+        "*.html": "html",
+        "django-html": "html",
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/base/**/*.html": "django-html",
+        "**/base_templates/**/*.html": "django-html",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+        "**/templates/**/*.tsx": "typescriptreact",
+        "**/templates/**/*.ts": "typescript"
+      },
+    "emmet.includeLanguages": {
+        "django-html": "html",
+        "javascript": "javascriptreact",
+        "typescript": "typescriptreact"
+    },
+
+    "[django-html]": {
+        "editor.tabSize": 2,
+        "editor.quickSuggestions": {
+          "other": true,
+          "comments": true,
+          "strings": true
+        }
+    },
+    "editor.codeActionWidget.includeNearbyQuickFixes": false,
+    "editor.minimap.enabled": false,
+    "breadcrumbs.enabled": false,
+    "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "visible",
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000"
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.colorCustomizations"
+    ],
+    
+}

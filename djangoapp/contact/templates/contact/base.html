@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  {% include "contact/partials/_head.html" %}
+</head>
+<body>
+  {% include "contact/partials/_header.html" %}
+  {% include "contact/partials/_messages.html" %}
+
+  <main class='content'>
+    {% block content %}{% endblock content %}
+    {% include "contact/partials/_pagination.html" %}
+  </main>
+</body>
+</html>
