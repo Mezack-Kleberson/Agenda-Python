@@ -18,7 +18,7 @@ def register(request):
 
     return render(
         request,
-        'pages/contact/register.html',
+        'contact/pages/register.html',
         {
             'form': form
         }
@@ -41,7 +41,7 @@ def login_view(request):
 
     return render(
         request,
-        'pages/contact/login.html',
+        'contact/pages/login.html',
         {
             'form': form
         }
@@ -65,7 +65,7 @@ def user_update(request):
         
         return render(
             request,
-            'pages/contact/register.html',
+            'contact/pages/register.html',
             {
                 'form':form
             }
@@ -73,7 +73,7 @@ def user_update(request):
 
     return render(
         request,
-        'pages/contact/register.html',
+        'contact/pages/register.html',
         {
             'form':form
         }

@@ -19,7 +19,7 @@ def index(request):
 
     return render(
         request,
-        'pages/contact/index.html',
+        'contact/pages/index.html',
         context,
     )
 
@@ -51,7 +51,7 @@ def search(request):
 
     return render(
         request,
-        'pages/contact/index.html',
+        'contact/pages/index.html',
         context,
     )
 
@@ -68,6 +68,6 @@ def contact(request, contact_id):
 
     return render(
         request,
-        'pages/contact/contact.html',
+        'contact/pages/contact.html',
         context
     )

@@ -1,5 +1,3 @@
-version: '3.9'
-
 services:
   djangoapp:
     container_name: djangoapp
@@ -14,9 +12,9 @@ services:
     env_file:
       - ./dotenv_files/.env
     depends_on:
-      - psql
-  psql:
-    container_name: psql
+      - psql_agenda
+  psql_agenda:
+    container_name: psql_agenda
     image: postgres:13-alpine
     volumes:
       - ./data/postgres/data:/var/lib/postgresql/data/

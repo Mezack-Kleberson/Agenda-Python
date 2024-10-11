@@ -26,7 +26,7 @@ def create(request):
 
     return render(
         request,
-        'pages/contact/create.html',
+        'contact/pages/create.html',
         {
             'form': ContactForm(),
             'form_action': form_action,
@@ -57,7 +57,7 @@ def update(request, contact_id):
           
     return render(
         request,
-        'pages/contact/create.html',
+        'contact/pages/create.html',
         {'form': ContactForm(instance=contact), 'form_action': form_action}
     )
 
@@ -74,7 +74,7 @@ def delete(request, contact_id):
 
     return render(
         request,
-        'pages/contact/contact.html',
+        'contact/pages/contact.html',
         {
             'contact': contact,
             'confirmation': confirmation,
